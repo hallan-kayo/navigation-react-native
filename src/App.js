@@ -2,9 +2,7 @@ import React,{Component} from 'react';
 import {StyleSheet} from 'react-native'
 import {createStackNavigator} from 'react-navigation-stack'
 import {createAppContainer} from 'react-navigation'
-import HomeScreen from './screens/homeScreen'
-import ProfileScreen from './screens/profileScreen'
-import DetailsScreen from './screens/detailsScreen'
+import {HomeScreen,ProfileScreen,DetailsScreen} from './screens'
 
 //função para retornar um componente react
 const AppNavigator = createStackNavigator(
