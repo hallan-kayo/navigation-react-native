@@ -17,8 +17,6 @@ export default class DetailsScreen extends Component{
       return(
         <View style={styles.container}>
           <Text style={{fontSize:50}}>detalhes</Text>
-          <Button title="tela inicial" 
-          onPress={() => this.props.navigation.popToTop()}/>
           <Button title="voltar" 
           onPress={() => this.props.navigation.goBack()}/>
         </View>
