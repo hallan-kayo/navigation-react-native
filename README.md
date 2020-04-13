@@ -11,3 +11,5 @@ fazendo navegação entre telas com react native
     expo install @react-native-community/masked-view
 
     expo install react-navigation react-native-gesture-handler react-native-reanimated react-native-screens
+    
+    npm install --save react-navigation-tabs
