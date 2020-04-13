@@ -13,3 +13,6 @@ fazendo navegação entre telas com react native
     expo install react-navigation react-native-gesture-handler react-native-reanimated react-native-screens
     
     npm install --save react-navigation-tabs
+
+    #caso for usar ícones no navbar
+        npm install react-native-vector-icons
